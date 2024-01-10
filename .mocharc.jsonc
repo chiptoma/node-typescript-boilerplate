@@ -1,0 +1,10 @@
+{
+  "require": ["chai/register-expect", "chai/register-assert", "chai/register-should"],
+  "extension": ["js", "ts"],
+  "spec": "src/**/*.spec.ts",
+  "bail": true,
+  "watch": true,
+  "watch-files": ["src/**/*.ts"],
+  "watch-ignore": ["node_modules"],
+  "node-option": "import=tsx"
+}

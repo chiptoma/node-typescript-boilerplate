@@ -1,0 +1,38 @@
+# Dependency directories
+/node_modules/
+
+# Build outputs
+/dist/
+/build/
+/out/
+/logs/
+
+# Coverage directories
+/coverage/
+
+# Test files
+/__tests__/
+/__mocks__/
+/test/
+*.spec.ts
+*.test.ts
+
+# Environment configuration files
+.env
+.env.*
+!.env.example
+
+# IDE and Editor folders
+# /.idea/
+# /.vscode/
+# *.code-workspace
+
+# Logs
+*.log
+*.log.*
+
+# OS generated files
+.DS_Store
+
+# Misc
+# /fleet/

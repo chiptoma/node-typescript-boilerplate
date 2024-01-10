@@ -1,0 +1,27 @@
+# Source files
+src/
+*.ts
+*.map
+
+# Tests
+test/
+*.spec.js
+*.test.js
+
+# Build and configuration
+tsconfig.json
+tsconfig.*.json
+
+# Continuous integration
+
+# Development tools
+.vscode/
+*.config.js
+
+# Dependency directories
+node_modules/
+
+# Miscellaneous
+*.log
+*.bak
+.DS_Store

@@ -1,0 +1,12 @@
+// Tsconfig for build, exclude certain files from build
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": false, // Disable source maps in production for smaller build size
+    "removeComments": true, // Remove comments to further reduce file size
+    "incremental": false, // Optional: Consider disabling for a clean production build
+    "skipLibCheck": false, // Enable lib check for thorough type checking
+    "noEmitOnError": true // Ensure no files are emitted if there are type errors
+  },
+  "exclude": ["node_modules", "dist", "**/*.spec.ts", "**/*.test.ts"]
+}

@@ -1,0 +1,7 @@
+// Tsconfig for eslint, include certain files for linting outside the rootDir
+{
+  "extends": "./tsconfig.json",
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {}
+}
